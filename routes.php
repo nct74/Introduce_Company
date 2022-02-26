@@ -39,6 +39,11 @@ if($page=='error'){
   $controller = 'errors';
   $action = 'index';
 }
+if($page=='error'){
+    $controller = 'errors';
+    $action = 'index';
+}
+
 
 // Nhúng file định nghĩa controller vào để có thể dùng được class định nghĩa trong file đó
 include_once('controllers/' .$page ."/" . $controller . '_controller.php');
