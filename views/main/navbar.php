@@ -144,24 +144,24 @@
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a href="index.php?page=main&controller=layouts&action=index">Trang chủ</a></li>
-          <li><a href="index.php?page=main&controller=about&action=index">Chúng tôi</a></li>
-          <li><a href="index.php?page=main&controller=services&action=index">Sản phẩm</a></li>
-          <li><a href="index.php?page=main&controller=blog&action=index">Tin tức</a></li>
-          <li><a href="index.php?page=main&controller=archive&action=index">Thành tựu</a></li>
-          <li><a href="index.php?page=main&controller=contact&action=index">Kết nối</a></li>
+          <li><a href="https://web-company-211.herokuapp.com/index.php?page=main&controller=layouts&action=index">Trang chủ</a></li>
+          <li><a href="https://web-company-211.herokuapp.com/index.php?page=main&controller=about&action=index">Chúng tôi</a></li>
+          <li><a href="https://web-company-211.herokuapp.com/index.php?page=main&controller=services&action=index">Sản phẩm</a></li>
+          <li><a href="https://web-company-211.herokuapp.com/index.php?page=main&controller=blog&action=index">Tin tức</a></li>
+          <li><a href="https://web-company-211.herokuapp.com/index.php?page=main&controller=archive&action=index">Thành tựu</a></li>
+          <li><a href="https://web-company-211.herokuapp.com/index.php?page=main&controller=contact&action=index">Kết nối</a></li>
           <?php
           if (!isset($_SESSION["guest"])){
             echo '
-              <li><a href="index.php?page=main&controller=register&action=index" class="box-arrow-in-right"><i class="bu bi-file-lock-fill"></i></a></li> <!-- Đăng ký -->
-              <li><a href="index.php?page=main&controller=login&action=index" class="box-arrow-in-right"><i class="bu bi-person-lines-fill"></i></a></li> <!-- Đăng nhập -->
+              <li><a href="https://web-company-211.herokuapp.com/index.php?page=main&controller=register&action=index" class="box-arrow-in-right"><i class="bu bi-file-lock-fill"></i></a></li> <!-- Đăng ký -->
+              <li><a href="https://web-company-211.herokuapp.com/index.php?page=main&controller=login&action=index" class="box-arrow-in-right"><i class="bu bi-person-lines-fill"></i></a></li> <!-- Đăng nhập -->
             
             ';
           }
           else{
             echo '
             <li><a href="" data-toggle="modal" data-target="#EditUserModal"><i class="bu bi-person-badge-fill"></i></a></li>
-            <li><a href="index.php?page=main&controller=login&action=logout" class="box-arrow-in-right"><i class="bu bi-box-arrow-right"></i></a></li> <!-- Đăng xuất -->
+            <li><a href="https://web-company-211.herokuapp.com/index.php?page=main&controller=login&action=logout" class="box-arrow-in-right"><i class="bu bi-box-arrow-right"></i></a></li> <!-- Đăng xuất -->
             ';
           }
           ?>

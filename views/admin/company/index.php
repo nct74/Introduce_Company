@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!isset($_SESSION["user"])) {
-	header("Location: index.php?page=admin&controller=login&action=index");
+	header("Location: https://web-company-211.herokuapp.com/index.php?page=admin&controller=login&action=index");
 }
 ?>
 <?php

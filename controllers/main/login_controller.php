@@ -14,7 +14,7 @@ class LoginController extends BaseController
 		session_start();
 		if (isset($_SESSION["guest"]))
 		{
-			header('Location: index.php?page=main&controller=layouts&action=index');
+			header('Location: https://web-company-211.herokuapp.com/index.php?page=main&controller=layouts&action=index');
 		}
 		else if (isset($_POST['submit-btn']))
 		{
@@ -25,7 +25,7 @@ class LoginController extends BaseController
 			if ($check == 1)
 			{
 				$_SESSION["guest"] = $username;
-				header('Location: index.php?page=main&controller=layouts&action=index');
+				header('Location: https://web-company-211.herokuapp.com/index.php?page=main&controller=layouts&action=index');
 			}
 			else 
 			{
@@ -45,6 +45,6 @@ class LoginController extends BaseController
 		session_start();
 		unset($_SESSION["guest"]);
 		session_destroy();
-		header("Location: index.php?page=main&controller=login&action=index");
+		header("Location: https://web-company-211.herokuapp.com/index.php?page=main&controller=login&action=index");
 	}
 }

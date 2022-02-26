@@ -25,7 +25,7 @@ class RegisterController extends BaseController
 		$password = $_POST['pass'];
 		echo $fname . $lname . $age . $gender . $phone . $email . $password;
 		User::insert($email, 'public/img/user/default.png', $fname, $lname, $gender, $age, $phone, $password);
-		header('Location: index.php?page=main&controller=layouts&action=index');
+		header('Location: https://web-company-211.herokuapp.com/index.php?page=main&controller=layouts&action=index');
 	}
 
 	public function editInfo()
@@ -67,7 +67,7 @@ class RegisterController extends BaseController
 		move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file);
 		// Update
 		$change_info = User::update($email, $target_file, $fname, $lname, $gender, $age, $phone);
-		header('Location: index.php?page=main&controller=layouts&action=index');
+		header('Location: https://web-company-211.herokuapp.com/index.php?page=main&controller=layouts&action=index');
 	}
 
 	public function editPass()
@@ -77,7 +77,7 @@ class RegisterController extends BaseController
 		echo $email . " " . $newpassword .  "\n";
 		$change_pass = User::changePassword_($email, $newpassword);
 		echo "change_pass";
-		header('Location: index.php?page=admin&controller=user&action=index');
+		header('Location: https://web-company-211.herokuapp.com/index.php?page=admin&controller=user&action=index');
 	}
 
 	public function delete()
@@ -86,6 +86,6 @@ class RegisterController extends BaseController
 		$urlcurrent = $_POST['img'];
 		unlink($urlcurrent);
 		$delete_user = User::delete($email);
-		header('Location: index.php?page=admin&controller=user&action=index');
+		header('Location: https://web-company-211.herokuapp.com/index.php?page=admin&controller=user&action=index');
 	}
 }

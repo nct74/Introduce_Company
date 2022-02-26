@@ -21,7 +21,7 @@ class AdminController extends BaseController
 		$username = $_POST['username'];
 		$password = $_POST['password'];
 		$add_new = Admin::insert($username, $password);
-		header('Location: index.php?page=admin&controller=admin&action=index');
+		header('Location: https://web-company-211.herokuapp.com/index.php?page=admin&controller=admin&action=index');
 	}
 
 	public function edit()
@@ -29,13 +29,13 @@ class AdminController extends BaseController
 		$username = $_POST['username'];
 		$newPassword = $_POST['new-password'];
 		$change_pass = Admin::changePassword_($username, $newPassword);
-		header('Location: index.php?page=admin&controller=admin&action=index');
+		header('Location: https://web-company-211.herokuapp.com/index.php?page=admin&controller=admin&action=index');
 	}
 
 	public function delete()
 	{
 		$username = $_POST['username'];
 		$delete_user = Admin::delete($username);
-		header('Location: index.php?page=admin&controller=admin&action=index');
+		header('Location: https://web-company-211.herokuapp.com/index.php?page=admin&controller=admin&action=index');
 	}
 }

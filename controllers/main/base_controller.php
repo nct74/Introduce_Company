@@ -19,7 +19,7 @@ class BaseController
       require_once('views/admin/basic_layouts.php');
     } else {
       // Nếu file muốn gọi ra không tồn tại thì chuyển hướng đến trang báo lỗi.
-      header('Location: index.php?page=main&controller=layouts&action=error');
+      header('Location: https://web-company-211.herokuapp.com/index.php?page=main&controller=layouts&action=error');
     }
   }
 }

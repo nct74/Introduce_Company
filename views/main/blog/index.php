@@ -8,8 +8,8 @@
       <div class="d-flex justify-content-between align-items-center">
         <h1 style="color: white;"><strong>TIN TỨC</strong></h1>
         <ol>
-          <li><a href="index.php?page=main&controller=layouts&action=index">Trang chủ</a></li>
-          <li><a href="index.php?page=main&controller=blog&action=index">Tin tức</a></li>
+          <li><a href="https://web-company-211.herokuapp.com/index.php?page=main&controller=layouts&action=index">Trang chủ</a></li>
+          <li><a href="https://web-company-211.herokuapp.com/index.php?page=main&controller=blog&action=index">Tin tức</a></li>
         </ol>
       </div>
 
@@ -303,9 +303,9 @@
 
             <div class="blog-pagination">
               <ul class="justify-content-center">
-                <li><a href="index.php?page=main&controller=blog&action=index&pg=1">1</a></li>
-                <li><a href="index.php?page=main&controller=blog&action=index&pg=2">2</a></li>
-                <li><a href="index.php?page=main&controller=blog&action=index&pg=3">3</a></li>
+                <li><a href="https://web-company-211.herokuapp.com/index.php?page=main&controller=blog&action=index&pg=1">1</a></li>
+                <li><a href="https://web-company-211.herokuapp.com/index.php?page=main&controller=blog&action=index&pg=2">2</a></li>
+                <li><a href="https://web-company-211.herokuapp.com/index.php?page=main&controller=blog&action=index&pg=3">3</a></li>
               </ul>
             </div>
 

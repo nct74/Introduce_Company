@@ -8,8 +8,8 @@
       <div class="d-flex justify-content-between align-items-center">
         <h1 style="color: white;"><strong>CHÚNG TÔI</strong></h1>
         <ol>
-          <li><a href="index.php?page=main&controller=layouts&action=index">Trang chủ</a></li>
-          <li><a href="index.php?page=main&controller=about&action=index">Chúng tôi</a></li>
+          <li><a href="https://web-company-211.herokuapp.com/index.php?page=main&controller=layouts&action=index">Trang chủ</a></li>
+          <li><a href="https://web-company-211.herokuapp.com/index.php?page=main&controller=about&action=index">Chúng tôi</a></li>
         </ol>
       </div>
 

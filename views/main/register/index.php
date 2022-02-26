@@ -33,7 +33,7 @@
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100">
-				<form action="index.php?page=main&controller=register&action=submit" method="POST" class="login100-form validate-form">
+				<form action="https://web-company-211.herokuapp.com/index.php?page=main&controller=register&action=submit" method="POST" class="login100-form validate-form">
 					<span class="login100-form-title p-b-20">
 						<strong>ĐĂNG KÝ</strong>
 					</span>
@@ -98,7 +98,7 @@
 						</div>
 
 						<div>
-							<a href="index.php?page=main&controller=layouts&action=index" class="txt1">
+							<a href="https://web-company-211.herokuapp.com/index.php?page=main&controller=layouts&action=index" class="txt1">
 								Trở về trang chủ!
 							</a>
 						</div>

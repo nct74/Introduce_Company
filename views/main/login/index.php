@@ -61,7 +61,7 @@
 					<div class="flex-sb-m w-full p-t-3 p-b-32">
 
 						<div>
-							<a href="index.php?page=main&controller=layouts&action=index" class="txt1">
+							<a href="https://web-company-211.herokuapp.com/index.php?page=main&controller=layouts&action=index" class="txt1">
 								Trở về trang chủ!
 							</a>
 						</div>
